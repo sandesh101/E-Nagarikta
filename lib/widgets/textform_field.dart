@@ -14,7 +14,7 @@ class CustomTextformField extends StatefulWidget {
 }
 
 class _CustomTextformFieldState extends State<CustomTextformField> {
-  TextEditingController _date = TextEditingController();
+  // TextEditingController _date = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
