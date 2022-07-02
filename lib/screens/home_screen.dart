@@ -78,7 +78,15 @@ class HomePage extends StatelessWidget {
             text: "६)SLC या ८ पास या character certificate",
             paddingSize: 30,
           ),
-          ElevatedButton(onPressed: () {}, child: const Text("बनाउनु")),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, '/CitizenshipForm');
+            },
+            child: const Text("बनाउनु"),
+            // style: ElevatedButton.styleFrom(
+            //   primary: ,
+            // ),
+          ),
         ],
 
         // CustomButton(text: "बनाउनु", )
