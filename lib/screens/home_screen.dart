@@ -1,7 +1,7 @@
 import 'package:e_nagarikta/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 
-import '../widgets/custom_button.dart';
+//import '../widgets/custom_button.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -38,18 +38,18 @@ class HomePage extends StatelessWidget {
           const CustomText(
             fontSize: 20,
             text: "नागरिकता बनाउनु अघी ध्यान दिनु पर्ने कुरा हरु |",
-            paddingSize: 10,
+            paddingSize: 0,
           ),
-          // const Divider(
-          //   indent: 60.0,
-          //   endIndent: 60.0,
-          //   color: Colors.black,
-          //   thickness: 2.0,
-          // ),
+          const Divider(
+            indent: 60.0,
+            endIndent: 60.0,
+            color: Colors.black,
+            thickness: 2.0,
+          ),
           const CustomText(
             fontSize: 20,
             text:
-                "१)जस्को नगरिकता बनौन पर्ने हो, सो ब्यक्ती १६ बर्ष या सो भन्दा माथि हुन पर्नी",
+                "१)जस्को नगरिकता बनाउन पर्ने हो, सो ब्यक्ती १६ बर्ष या सो भन्दा माथि हुन पर्नी",
             paddingSize: 10,
           ),
           const CustomText(
