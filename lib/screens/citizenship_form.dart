@@ -9,10 +9,27 @@ class CitizenshipForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const BoxDecoration(color: Colors.green),
-      child: const CustomTextformField(
-        title: 'नाम, थर',
-        isDatePicker: false,
+      child: GridView(
+        children: [
+          const CustomTextformField(
+            title: 'नाम, थर',
+            isDatePicker: false,
+          ),
+          const CustomTextformField(
+            title: 'नाम, थर',
+            isDatePicker: false,
+          ),
+          const CustomTextformField(
+            title: 'नाम, थर',
+            isDatePicker: false,
+          ),
+          const CustomTextformField(
+            title: 'नाम, थर',
+            isDatePicker: false,
+          ),
+        ],
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2, mainAxisSpacing: 0.5),
       ),
     );
   }

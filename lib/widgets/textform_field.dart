@@ -19,7 +19,7 @@ class _CustomTextformFieldState extends State<CustomTextformField> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.all(10.0),
+        padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 5.0),
         child: TextField(
           decoration: InputDecoration(
             hintText: widget.title,
