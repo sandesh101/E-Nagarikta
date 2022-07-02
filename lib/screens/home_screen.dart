@@ -12,6 +12,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("ई-नागरिकता"),
         centerTitle: true,
+        backgroundColor: Colors.red,
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
@@ -82,10 +83,15 @@ class HomePage extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, '/CitizenshipForm');
             },
-            child: const Text("बनाउनु"),
-            // style: ElevatedButton.styleFrom(
-            //   primary: ,
-            // ),
+            style: ElevatedButton.styleFrom(
+              primary: Colors.red,
+              maximumSize: const Size(250, 350),
+            ),
+            child: const CustomText(
+              fontSize: 20,
+              text: 'बनाउनु',
+              paddingSize: 10,
+            ),
           ),
         ],
 
